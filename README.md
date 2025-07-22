@@ -1,9 +1,15 @@
 import os
+
 from telegram import Update
+
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
+
 import joblib
+
 from transformers import pipeline
+
 import matplotlib.pyplot as plt
+
 import numpy as np
 
 # بارگذاری مدل‌ها
